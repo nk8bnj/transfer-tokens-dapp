@@ -1,0 +1,78 @@
+/* wrapper styles */
+.wrapper {
+	display: grid;
+	grid-template-areas:
+		"titleAddress inputAddress button"
+		"titleTokens inputAmount button";
+	grid-template-columns: 2fr 8fr 2fr;
+	grid-template-rows: 6fr 6fr;
+
+	min-width: 500px;
+
+	background-color: #f9f9f9;
+
+	margin-bottom: 15px;
+	padding: 20px;
+
+	border: 1px solid rgb(228, 227, 227);
+	border-radius: 10px;
+	box-shadow: rgba(45, 35, 66, 0.15) 0 5px 7px,
+		rgba(47, 37, 68, 0.15) 0 3px 7px -2px, #d6d6e7 0 -1px 0 inset;
+}
+
+/* title styles */
+.titleAddress {
+	grid-area: titleAddress;
+}
+.titleTokens {
+	grid-area: titleTokens;
+}
+.title {
+	text-align: right;
+	margin-right: 10px;
+}
+
+/* input styles */
+.inputAddress {
+	grid-area: inputAddress;
+
+	width: 100%;
+	height: 30px;
+	margin: 0 0 10px 0;
+
+	text-align: center;
+
+	border: none;
+	box-shadow: #d6d6e4 0 3px 7px inset;
+}
+.inputAddress:hover {
+	box-shadow: #c5c5d8 0 2px 8px inset;
+}
+.inputAddress:focus {
+	outline: none;
+}
+.inputAddress::placeholder {
+	color: #66a1a7;
+}
+
+.inputAmount {
+	grid-area: inputAmount;
+
+	width: 100%;
+	height: 30px;
+
+	text-align: center;
+
+	border: none;
+	box-shadow: #d6d6e4 0 3px 7px inset;
+	transform: translateY(2px);
+}
+.inputAmount:hover {
+	box-shadow: #c5c5d8 0 2px 8px inset;
+}
+.inputAmount:focus {
+	outline: none;
+}
+.inputAmount::placeholder {
+	color: #66a1a7;
+}

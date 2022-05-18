@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+	color: #36395a;
+
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+	font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* header styles */
+.header {
+	width: max-content;
+	margin: 0 auto;
+	padding: 10px 0 5px 0;
+}
+.header h1 {
+	text-align: center;
+	color: #148d98;
+}
+.header p {
+	text-align: center;
+}
+.header i {
+	font-size: 16px;
+	color: rgb(149, 147, 147);
+	border-bottom: 1px solid #e0dfdf;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* wrapper styles */
+.wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+/* error styles */
+.error {
+	color: rgb(221, 88, 88) !important;
+	border-bottom: 1px solid rgb(223, 193, 193) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* @media styles */
+@media (max-width: 1044px) {
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
 }
