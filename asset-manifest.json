@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/transfer-tokens-dapp/static/css/main.525ffc85.css",
+    "main.js": "/transfer-tokens-dapp/static/js/main.ccbba5c2.js",
+    "static/js/787.02647181.chunk.js": "/transfer-tokens-dapp/static/js/787.02647181.chunk.js",
+    "index.html": "/transfer-tokens-dapp/index.html",
+    "main.525ffc85.css.map": "/transfer-tokens-dapp/static/css/main.525ffc85.css.map",
+    "main.ccbba5c2.js.map": "/transfer-tokens-dapp/static/js/main.ccbba5c2.js.map",
+    "787.02647181.chunk.js.map": "/transfer-tokens-dapp/static/js/787.02647181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525ffc85.css",
+    "static/js/main.ccbba5c2.js"
+  ]
+}
