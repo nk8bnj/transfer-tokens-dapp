@@ -1,6 +1,6 @@
 # Try out dApp
 
-[Click here](https://8bitnikita.github.io/transfer-tokens-dapp/) to open the decentralized application.
+[Demo](https://nk8bnj.github.io/transfer-tokens-dapp/) to open the decentralized application.
 
 ## Getting Started
 
